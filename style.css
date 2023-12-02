@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    font-size: 16px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(72, 72, 163);
+    color: #fff;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+}
